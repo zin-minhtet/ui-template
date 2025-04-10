@@ -9,7 +9,7 @@ export default function Layout() {
     <SidebarProvider defaultOpen={false}>
       <AppSidebar />
 
-      <main className="w-full">
+      <main className="hidden min-[350px]:block w-full">
         <Headbar />
         <Outlet />
       </main>

@@ -8,7 +8,7 @@ export default function Headbar() {
 
   return (
     <div className="h-[50px] px-2 flex items-center top-0 sticky bg-header ">
-      <SidebarTrigger className="size-7 [&>*]:!size-5 hover:bg-slate-50 dark:hover:bg-slate-800" />
+      <SidebarTrigger className="size-7 [&>*]:!size-5 hover:bg-white/70 dark:hover:bg-white/10" />
       <div className="w-full mx-2 flex items-center justify-between">
         <h1 className="font-bold text-xl text-slate-700 dark:text-slate-300">
           App
@@ -18,7 +18,7 @@ export default function Headbar() {
           onClick={toggleTheme}
           aria-label="Toggle Theme"
           variant="ghost"
-          className="rounded-full bg-foreground/10"
+          className="rounded-full bg-sidebar-foreground/10"
           size="icon"
         >
           {theme === "light" ? (

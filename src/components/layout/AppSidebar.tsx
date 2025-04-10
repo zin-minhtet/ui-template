@@ -108,6 +108,7 @@ export function AppSidebar() {
                     tooltip={item.title}
                   >
                     <a
+                      className="cursor-default"
                       onClick={() => {
                         navigate(item.url);
                       }}
@@ -134,6 +135,7 @@ export function AppSidebar() {
                     tooltip={item.title}
                   >
                     <a
+                      className="cursor-default"
                       onClick={() => {
                         navigate(item.url);
                       }}
