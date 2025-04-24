@@ -154,7 +154,7 @@ export function AppSidebar() {
         <SidebarMenu>
           {open && (
             <SidebarMenuItem>
-              <div className="flex w-full items-center justify-center p-2 text-xs text-sidebar-foreground/70">
+              <div className="flex w-full items-center justify-center p-2 text-sm text-sidebar-foreground/70">
                 Copyright © 2025
               </div>
             </SidebarMenuItem>
