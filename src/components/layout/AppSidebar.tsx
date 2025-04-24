@@ -155,7 +155,7 @@ export function AppSidebar() {
           {open && (
             <SidebarMenuItem>
               <div className="flex w-full items-center justify-center p-2 text-sm text-sidebar-foreground/70">
-                Copyright © 2025
+                Copyright © 2025 Zin Min Htet
               </div>
             </SidebarMenuItem>
           )}
